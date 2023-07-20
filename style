@@ -1,0 +1,72 @@
+body {
+    background-color: aliceblue;
+}
+
+h1 {
+    color: rgb(14, 14, 106);
+    font-style: oblique;
+    font-size: 35px;
+    padding: 50px;
+    text-align: center;
+}
+
+.container1 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 50px;
+}
+
+img {
+    margin-left: 100px;
+    width: 700px;
+    height: 400px;
+}
+
+p {
+    text-align: center;
+    font-family: cursive;
+    font-size: 21px;
+    color: rgb(228, 38, 168);
+    margin-left: 100px;
+    margin-right: 200px;
+    margin-top: 100px;
+}
+
+.container2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 50px;
+}
+
+.places {
+    margin-left: 250px;
+    font-family: cursive;
+    color: rgb(#d900fff3);
+    font-size: 18px;
+}
+
+.food {
+    font-family: cursive;
+    color: rgb(#d900fff3);
+    font-size: 18px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid;
+    border-spacing: 50px;
+    margin-left: 100px;
+    margin-top: 100px;
+    color: rgb(19, 98, 22);
+    font-family: cursive;
+    width: 85%;
+}
+
+thead {
+    border: 1px solid;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
